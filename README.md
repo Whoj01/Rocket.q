@@ -8,7 +8,7 @@
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Tecnologies
 
 This project has been developed with the following technologies :
 
@@ -20,10 +20,10 @@ This project has been developed with the following technologies :
 - Express
 - SQLite
 
-## 💻 Projeto
+## 💻 Project
 Rocket.Q is a platform of questions in private rooms with password to enter, the administrator of the respective room can check the questions as read or erase then. Rocket.Q can be used by streamers or speakers in events to free rooms to the public make questions.
 
-## Como usar?
+## How to Use?
 Download this repositorie and with your teminal, enter in the directory
 
   1.Run the command `npm install` to install the dependencies
