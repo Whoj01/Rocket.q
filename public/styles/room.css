@@ -1,0 +1,275 @@
+.content{
+  max-width: min(112rem, 90%);
+}
+
+#room header{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons{
+  display: flex;
+}
+
+#room header .buttons .button:nth-child(1){
+  margin-right: .8rem;
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(1) img{
+  margin-left: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#room header .buttons .button:nth-child(2){
+  padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) img{
+  width: 2rem;
+  height: 2rem;
+}
+
+
+/* QUESTION FORM */
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+
+  margin-bottom: 2.4rem;
+
+  color: var(--black);
+}
+
+#question-form form {
+  border: .2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0 .8rem .8rem .8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-form form textarea {
+  resize: none;
+  background: transparent;
+  outline: none;
+  margin-bottom: 4rem;
+  width: 100%;
+  
+}
+
+#question-form form textarea::placeholder{
+  color: var(--grey-blue);
+}
+
+#question-form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#question-form footer > div{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--icons-details);
+  
+
+  display: flex;
+  align-items: center;
+}
+
+#question-form form footer div img {
+  margin-right: .8rem;
+}
+ 
+#question-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+/* Questions */
+.question-wrapper{
+  background: var(--ligth-blue);
+  margin-bottom: 0.8rem;
+  border-radius: 0 0.8rem 0.8rem 0.8rem;
+  padding: 2.4rem;
+  
+}
+
+.question-wrapper .question-content{
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+
+.question-wrapper .question-content .user {
+  background: var(--blue);
+  clip-path: circle();
+  padding: 1.4rem;
+}
+
+
+
+.question-wrapper .question-content p {
+  word-break: break-word;
+  display: flex;
+  align-items: center;
+  min-height: 5.2rem;
+}
+
+
+.question-wrapper .actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.question-wrapper .actions .action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.4rem;
+}
+
+.question-wrapper .actions .questionAnswer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.6rem;
+  margin-left: 0.8rem;
+  color: var(--black);
+  
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.question-wrapper .actions .questionAnswer  img {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: 0.8rem;
+  color: var(--black);
+}
+
+
+
+.question-wrapper .actions .action .delete {
+  margin-right: 0.8rem;
+}
+
+.question-wrapper .actions .action .check,
+.question-wrapper .actions .action .delete
+ {
+  display: flex;
+  align-items: center;
+  color: var(--grey-dark);
+  
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.question-wrapper .actions .action .check img,
+.question-wrapper .actions .action .delete img {
+  margin-right: 0.8rem;
+}
+
+
+
+/* Question read */
+.question-wrapper.read {
+  background: var(--grey-medium);
+  
+}
+
+.question-wrapper.read .question-content .user {
+  background: var(--grey-blue);
+}
+
+/* no questions */
+.noquestion {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.noquestion .bold{
+  margin-top: 1.3rem;
+  color: var(--black);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.noquestion p {
+  margin-top: 1.3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey-dark);
+}
+
+#answer-form form{
+  border: .2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0 .8rem .8rem .8rem;
+
+  margin-top: 1.6rem;
+
+  
+}
+
+#answer-form  textarea{
+  resize: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+}
+
+#answer-form form textarea::placeholder{
+  color: var(--grey-blue);
+}
+
+#answer-form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+#answer-form footer > div{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--icons-details);
+  
+
+  display: flex;
+  align-items: center;
+}
+
+#answer-form form footer div img {
+  margin-right: .8rem;
+}
+ 
+#answer-form form footer button {
+  height: auto;
+  padding: 0.8rem 2.4rem;
+  line-height: 2.4rem;
+}
+
+.hidden {
+  display: none !important;
+
+}
